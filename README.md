@@ -3,64 +3,54 @@
 	
 ![]()
 <br>
-A complete guide to TFS setup with OSX
+A step by step tutorial on setting up TFVC for OSX
 </br>
 </h1>
 
-<h4 align="center">A step by step tutorial on TFVC</h4>
 
-<p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#reach-out"> Reach Out </a> •
-  <a href="#credits">Credits</a> •
-  <a href="#you-may-also-like">Related</a> •
-  <a href="#license">License</a>
-</p>
+<h2 align="center">
+  <a href="#instructions">Instructions</a> •
+  <a href="#requirements">Requirements</a>
 
-## Objective
+</h2>
 
-- 
+## Objectives
 
+- To install TEE-CLC (Team Explorer Everywhere Command Line Client) for implimenting Team Foundation Version Control.
+- To allow you to use the TEE-CLC to retrieve, edit, and publish changes to TFVC based repositories.
 
+## Process
 
-## How To Use
+- This tutorial will first have you install Home Brew, a package manager for OSX, allowing commandline instillation of software from outside sources.  
+- Next, it will walk you through using Home Brew to install TEE-CLC.  
+- Finally, this tutorial will walk you through setting up your development environment to utilize Team Foundation Version Control, from workspace initilization to your first checkin.
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [NPM](https://www.npmjs.com/get-npm) installed. If you wish to review the raw code, it's easiest to download a code editor such as Visual Studio Code or Atom.
+*Disclaimer: It is important to note that some, or all of this software might trigger a security warning on your device. This software is from trusted sources, and widely supported, however, as with any command line usage, please proceed with caution.*
 
-### Clone this repository from your Command Line:
+*If after an attempted instillation it appears nothing has happened, or you recieving an error/warning that software has attempted to be installed from an outside source, please navigate to the System Preferences app -> Security and Privacy -> General. Click the lock icon in the bottom left, enter your login password, and click "Allow Anyway" before repeating the procces"*
 
-``
-
-### Go into the repository
-
-``
-
-
-
-### Install dependencies in Root Project Directory
+## Requirements/Resources:
+**Please wait to install any outside resources until instructed.**
+- Computer running Mac OSX 10.14 (Mojave) or higher
+- <a href="https://brew.sh/"> Home Brew </a>
+- TEE-CLC version 14.135.0 <a href="https://github.com/Microsoft/team-explorer-everywhere/releases">TEE releases</a>
+- OSX Terminal.
 
 
+## Instructions:
+**Please follow these intructions in exactly the order they are given**  
+*Home Brew instillation*
+1. Open a new terminal window
+2. Paste the following into console:  
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+3. Enter your login password and hit return.
 
-### Run the app
+*TEE-CLC instillation*
 
-``
+1.
 
-## Reach Out
+## Further reading/Documentation
 
-
-
-## Requirements
-
-This software uses the following technologies:
-
-- Javascript
-- React (JSX)
-- Firebase/Firestore
-- CSS (Bootstrap)
-- Browser native speech to text
-- Microsoft Azure Sentiment Analysis
-- Git versioning
 
 ## Support
 
